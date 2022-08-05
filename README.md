@@ -40,7 +40,7 @@ npm start
 * 페이지네이션
 
 ### 구현 방법 혹은 구현하면서 어려웠던 점 과 이에대한 개선방안
-* 처음에는 단순하게 데이터를 받아와 뿌려준다고 생각해서 Maingpage에서 title을 눌렀을때 아래로 상세페이지가 열리는 방식으로 구현을 하니 detailpage에서의 데이터들을 가공하는데 어려움이 있었고, 페이지가 첫 마운트 될때 필요한 모든데이터를 받아와야 해서 client쪽에서 부담을 받는 문제가 있었습니다. 이에 대한 해결방안으로 mainpage와 detailpage로 페이지를 나누고 detailpage에 필요한 데이터는 페이지로 detailpage로 진입(mainpage에서 title을 click했을때) 할때 받아와 렌더링 해주는 방법으로 client의 부담을 덜수 있었습니다.
+* 처음에는 단순하게 데이터를 받아와 뿌려준다고 생각해서 Maingpage에서 title을 눌렀을때 아래로 상세페이지가 열리는 방식으로 구현을 하니 detailpage에 노출되는 데이터를 받아와 가공하는데 어려움이 있었고, 페이지가 첫 마운트 될때 필요한 모든데이터를 받아와야 해서 client쪽에서 부담을 받는 문제가 있었습니다. 이에 대한 해결방안으로 mainpage와 detailpage로 페이지를 나누고 detailpage에 필요한 데이터는 페이지로 detailpage로 진입(mainpage에서 title을 click했을때) 할때 받아와 렌더링 해주는 방법으로 client의 부담을 덜수 있었습니다.
 
 ### 레이아웃
 
