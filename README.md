@@ -45,7 +45,7 @@ npm start
 ### 레이아웃
 
 <details>
-    <summary>Wireframe</summary>
+    <summary>Wireframe - figma</summary>
 
   ![image](https://user-images.githubusercontent.com/91649767/182869690-ebc047b5-64ec-44a1-8b76-8627bba075f5.png)
   ![image](https://user-images.githubusercontent.com/91649767/182869827-c834782d-f7fa-48c8-8ffb-bc94df0de106.png)
